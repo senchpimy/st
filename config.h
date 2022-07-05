@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:pixelsize=13";
-static char *font2[] = { "Hack:pixelsize=13" };
+static char *font = "Hack:pixelsize=14";
+static char *font2[] = { "Hack:pixelsize=14" };
 static int borderpx = 10;
 
 /*
@@ -17,7 +17,7 @@ static int borderpx = 10;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/bin/zsh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
