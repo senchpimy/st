@@ -40,7 +40,7 @@ dist: clean
 	rm -rf st-$(VERSION)
 
 install: st
-	sudo pacman -S xcompmgr ttf-hack w3m
+	sudo pacman -S xcompmgr ttf-hack ueberzug 
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f st $(DESTDIR)$(PREFIX)/bin
 	cp -f st-copyout $(DESTDIR)$(PREFIX)/bin
